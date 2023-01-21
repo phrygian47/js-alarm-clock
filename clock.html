@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=
+      "width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="clock.js"></script>
+</head>
+<body text = "black">
+
+      <h2><div id="title"></div></h2>
+      
+      <div id="clock"></div>
+
+      <div id='alarm-container'>
+        <h3>Set Alarm Time</h3>
+          <label>
+            <div>
+            <select id='alarmhrs' ></select>
+            </div>
+          </label>
+          <label>
+            <div>
+            <select id='alarmmins' ></select>
+            </div>
+          </label>
+          <label>
+            <div>
+              <select id="ampm">
+                <option value="AM">AM</option>
+                <option value="PM">PM</option>
+              </select>
+            </div>
+          </label>
+          <div id = 'alarmtimes'></div>
+          </div>
+      </div>
+</body>
+</html>

@@ -91,6 +91,7 @@ function militaryTime(){
     hour = addZero(hour);
     min = addZero(min);
     sec = addZero(sec);
+    alarmHour = addZero(alarmHour);
  
     let currentTime = hour + ":"+ min + ":" + sec;
     let currentTimeNoSec = alarmHour + ":" + min + ampm;

@@ -1,10 +1,10 @@
 setInterval(setTime);   // Set interval so clock constantly updates
 
 // Instantiate a few global variables
-let format = "12"                       
-const sound = new Audio("alarm.mp3");
-sound.loop = true;
-let alarmTimes = [];
+let format = "12"   // AMPM format default                    
+const sound = new Audio("alarm.mp3"); // Alarm sound
+sound.loop = true;  // Alarm will continue to loop until paused.
+let alarmTimes = [];    // Global list containing all of the alarm times.
 
 function showTime() {
     // Using date module, get current time.
@@ -55,8 +55,13 @@ function addZero(int){
 function changeFormat(){
     // If the 12 to 24 hour format button is pressed, toggle to the other format.
     time = document.getElementById("clock").innerText;
+    // checks if the 8th index of the string element is P or A
+    // If it is, it must be in AMPM format so change to 24 hours, otherwise
+    // Change back to 12 hour format.
     if (time[8] == "P"){
         format = "24";        
+    } else if (time[8] == "A"){
+        format = "24";
     } else{
         format = "12";
     }
@@ -180,8 +185,6 @@ function alarm(){
     let alarmTime = addZero(selectedHour) + ":" + addZero(selectedMin) + selectedAP;
     // Appends alarmTimes list with the selected alarm time.
     alarmTimes.push(alarmTime);
-
-    console.log('alarmTime:' + alarmTime);
 }
 
 function clearAlarm(){

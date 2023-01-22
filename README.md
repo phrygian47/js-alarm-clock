@@ -20,9 +20,13 @@ I used JavaScript to create HTML elements and interact with a webpage. With JS I
 
 How to use sound in JavaScript
 - [GeeksforGeeks](https://www.geeksforgeeks.org/how-to-make-a-beep-sound-in-javascript/)
+
 How to create CSS button outlines
+
 - [W3schools](https://www.w3schools.com/howto/howto_css_outline_buttons.asp)
+
 How to create HTML buttons using JS
+
 - [GeeksforGeeks](https://www.geeksforgeeks.org/html-dom-button-object/)
 
 ## Future Work

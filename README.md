@@ -14,7 +14,7 @@ The purpose of this software was to practice the interplay between JavaScript an
 
 To complete this project I used VSCode as my preferred IDE. I like VSCode as it's simple, easy to use, have a easy to use live server for HTML, and it works well with markdown.
 
-I used JavaScript to create HTML elements and interact with a webpage. With JS I created the button elements and appended them to the HTML body. Using the Date module from JavaScript I was able to create a functioning clock. With the Date module I retreived an hour, minute, and second. Then I formatted and concatted those variables together to create a string that is in the correct time format, either 12 or 24 hour clock. I also used CSS to format the HTML webpage into a nicer more professional output. 
+I used JavaScript to create HTML elements and interact with a webpage. With JS I created the button elements and appended them to the HTML body. Using the Date library from JavaScript I was able to create a functioning clock. With the Date library I retreived an hour, minute, and second. Then I formatted and concatted those variables together to create a string that is in the correct time format, either 12 or 24 hour clock. I also used CSS to format the HTML webpage into a nicer more professional output. 
 
 ## Useful Websites
 
